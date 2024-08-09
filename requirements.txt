@@ -1,0 +1,26 @@
+# pip install -r requirements.txt
+# Base ----------------------------------------
+torchmetrics
+matplotlib>=3.2.2
+numpy==1.23.4
+opencv-python>=4.1.1
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1  # Google Colab version
+
+tqdm>=4.41.0
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==1.13.1 
+torchvision==0.14.1 
+torchaudio==0.13.1 
+# Logging -------------------------------------
+tensorboard>=2.4.1
+# wandb
+
+# Plotting ------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+# Extras --------------------------------------
+thop  # FLOPs computation

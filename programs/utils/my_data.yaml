@@ -1,0 +1,11 @@
+train:
+	- #
+val:
+	- #
+test:
+	- ../datasets/hw3_dataset/fog/public_test
+uda:
+	- #
+
+nc: 9 
+names: ['none','person','car,'truck','bus','rider','motorcycle','bicycle','train'] 
