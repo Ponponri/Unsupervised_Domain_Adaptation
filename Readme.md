@@ -1,4 +1,4 @@
-# Target: 
+# Target
 ## Implement UDA method that train souce model with labeled souce dataset without fog, and then adapt model to unlabeled target dataset with fog.
 
 # Environment 
