@@ -1,22 +1,23 @@
-# Target
-## Implement UDA method that train souce model with labeled souce dataset without fog, and then adapt model to unlabeled target dataset with fog.
+# Unsupervised Domain Adaptation
+## Target
+- Implement UDA method that train souce model with labeled souce dataset without fog, and then adapt model to unlabeled target dataset with fog.
 
-# Environment 
+## Environment 
 - python 3.10
 - pytorch 1.13.1
 ```
 pip install -r requirements.txt
 ```
 
-# Quick Start
+## Quick Start
 
-## Inference Example: 
+### Inference Example: 
 - programs/example/cvpdl_hw3_inference.ipynb 
-## Download Checkpoints:
+### Download Checkpoints:
 ```
 bash hw3_download.sh
 ```
-## Inference:
+### Inference:
 ```
 bash hw3_inference.sh $1 $2 $3
 ```
@@ -29,10 +30,10 @@ bash hw3_inference.sh $1 $2 $3
         2: epoch20.pt
         3: epoch29.pt
         4: best result model
-## Results
+### Results
 - The result json file would save at $2
 
-# Detail
+## Detail
 
 1. Change the test data path in test_data.yaml to target folder
 
